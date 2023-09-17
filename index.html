@@ -1,11 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <title>Breland Norwood Portfolio</title>
+  <meta name="description" content="A digital protfolio showcasing some of Breland's work">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+ 
+
+  <link rel="stylesheet" href="portfolio/css/normalize.css">
+  <link rel="stylesheet" href="portfolio/css/style.css">
+
+  
+  <meta name="theme-color" content="#fafafa">
 </head>
+
 <body>
-    <a href="portfolio/index.html">Portfolio Links</a>
+  <header>
+    <nav>
+      
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+        
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <img src="portfolio/img/Breig1280.jpg" 
+    srcset="portfolio/img/Breig2796.jpg 2000w, 
+    portfolio/img/Breig1920.jpg 1500w, 
+    portfolio/img/Breig1280.jpg 800w"
+    sizes="(max-width: 800px) 800px,
+           (max-width: 1500px) 1500px,
+           2000px"
+    alt="Breland with Iguana">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is Breland Norwood, and I am a passionate Web Development and Design major at the University of
+        Arkansas at Little Rock. Ever since I discovered the intricate world of website creation, I have been captivated
+        by the possibilities of combining creativity, technical expertise, and user experience to create stunning
+        digital masterpieces.
+
+        Throughout my academic journey, I have honed my skills in various programming languages such as HTML, CSS,
+         and JavaScript, as well as gained expertise in popular web frameworks and libraries like Bootstrap. In addition to my technical knowledge, I have a keen eye for design, which allows me to
+        create visually appealing and user-friendly interfaces that effectively communicate the intended message.
+
+        When I am not busy studying or coding, I enjoy volunteering my web development and design expertise to local
+        non-profit organizations, helping them establish a strong online presence. This has given me the opportunity to
+        work on real-world projects, enhance my portfolio, and contribute positively to my community.
+
+        As I continue to grow and learn in this ever-evolving field, I am eager to take on challenging projects and
+        internships that will push me to further develop my skills and knowledge. Ultimately, my goal is to become a
+        leading web developer and designer, creating innovative and impactful digital solutions that improve the lives
+        of others.
+
+        Thank you for visiting my page, and feel free to browse through my portfolio and reach out if you'd like to
+        discuss potential collaborations or job opportunities. Let's create something amazing together!
+
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <!-- Add your project cards here -->
+        <div class="project-card">
+         <a href="https://snake0517.github.io/it-onyx/buffalo/index.html"> <img src="portfolio/img/river.png" alt="River Run Rentals"></a>
+          <h3>River Run Rentals</h3>
+          <p>This was a group project I was involved with for the IT Onyx program.  I was primary coder and troubleshooter for this particular project.</p>
+        </div>
+        <div class="project-card">
+         <a href="https://snake0517.github.io/ifsc-3342/resume/index.html"><img src="portfolio/img/resume.png" alt="Resume"></a> 
+          <h3>Resume</h3>
+          <p>A web verision of my resume leveraging microdata.</p>
+        </div>
+        <div class="project-card">
+         <a href="https://docs.google.com/spreadsheets/d/19tVI6OV0xiOtj7LQOUS2GECdHErGlYzoUUFbczNewXA/edit#gid=0"> <img src="portfolio/img/Spreadsheet.png" alt="Spreadsheet"></a>
+          <h3>Spreadsheet</h3>
+          <p>This project showcased my ability to manipulate data to create meaningful information.</p>
+        </div>
+        <div class="project-card">
+         <a href="https://snake0517.github.io/it-onyx/marsrover/index.html"> <img src="portfolio/img/mars.png" alt="Mars Rover"></a>
+          <h3>Mars Rover</h3>
+          <p>This is a small project to make a API call to NASA to bring in Mars rover pictures.</p>
+        </div>
+      </div>
+    </section>
+<div id="contact">
+  <iframe height="577" title="Embedded Wufoo Form" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" sandbox="allow-popups-to-escape-sandbox allow-top-navigation allow-scripts allow-popups allow-forms allow-same-origin" src="https://snake0517.wufoo.com/embed/zrhlf8z1q9cc4u/"> <a href="https://snake0517.wufoo.com/forms/zrhlf8z1q9cc4u/">Contact Me</a> </iframe>
+</div>
+
+    <footer>
+      <p>&copy; 2023 Breland Norwood. All rights reserved.</p>
+    </footer>
+
+</main>
+
+    <!-- Add your site or application content here -->
+    
+    <script src="portfolio/js/vendor/modernizr-3.12.min.js"></script>
+    <script src="portfolio/js/app.js"></script>
+
 </body>
+
 </html>
