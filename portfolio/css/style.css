@@ -7,10 +7,10 @@ body {
   }
   
   header{
-    background-image: url(../img/header.png);
+    background-image: url(../img/blue-swirl-header.jpg);
     background-size: cover;
       background-position: center;
-      height: 20%;
+      
     color: white;
     padding: 1rem;
   }
@@ -20,6 +20,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+  
     
   }
   
